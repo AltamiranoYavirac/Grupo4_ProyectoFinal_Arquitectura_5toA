@@ -62,6 +62,8 @@ Riesgo de dependencias fuertes entre controladores y vistas.
 
 ## Descripción:
 La aplicación se organiza en carpetas principales:
+
+```
 lib/
  ├── main.dart
  ├── models/         # Clases de datos (Medicamento, Cita, Recordatorio)
@@ -70,6 +72,8 @@ lib/
  ├── providers/      # Gestión de estado con Provider
  ├── services/       # Acceso a notificaciones y base de datos
  └── utils/          # Constantes, temas, helpers y utilidades
+
+ ```
 
 ## Razón de la Decisión:
 El patrón MVC con Provider ofrece el equilibrio ideal entre simplicidad y modularidad para una aplicación de tamaño mediano. Mantiene el código organizado, facilita el testing y garantiza que la UI permanezca reactiva ante los cambios de estado. Dado el público objetivo (personas mayores), el enfoque modular permite mantener una experiencia fluida, accesible y fácil de mantener en el tiempo.
