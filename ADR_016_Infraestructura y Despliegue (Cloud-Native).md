@@ -100,12 +100,12 @@ Aunque una arquitectura Serverless no opere con servidores tradicionales, sigue 
 ```
 
                                  ┌───────────────────────────────┐
-                                 │        Cliente (Móvil)         │
+                                 │        Cliente (Móvil)        │
                                  │───────────────────────────────│
-                                 │  App Móvil (Flutter)           │
-                                 │  - SQLite                      │
-                                 │  - Notificaciones locales      │
-                                 └───────────────┬────────────────┘
+                                 │  App Móvil (Flutter)          │
+                                 │  - SQLite                     │
+                                 │  - Notificaciones locales     │
+                                 └───────────────┬───────────────┘
                                                  │
                                                  │ HTTPS (sync/push, sync/pull)
                                                  ▼
@@ -122,15 +122,15 @@ Aunque una arquitectura Serverless no opere con servidores tradicionales, sigue 
       │  │      Public Subnet / Edge     │      │        Funciones Serverless    │   │
       │  │───────────────────────────────│      │────────────────────────────────│   │
       │  │  CDN (CloudFront)             │      │  Lambda v1                     │   │
-      │  │  API Gateway / LB             │─────▶│  Lambda v2 (Canary)            │   │
+      │  │  API Gateway / LB             │────▶ │  Lambda v2 (Canary)            │  │
       │  └───────────────────────────────┘      │  Scheduler (Backups)           │   │
-      │                                          └────────────────────────────────┘   │
+      │                                         └────────────────────────────────┘   │
       │
       │  ┌───────────────────────────────┐      ┌────────────────────────────────┐   │
-      │  │        Auth & Push            │      │            Datos / Storage      │   │
+      │  │        Auth & Push            │      │            Datos / Storage     │   │
       │  │───────────────────────────────│      │────────────────────────────────│   │
-      │  │  Auth Service                 │◀────▶│  NoSQL DB (DynamoDB/Firestore) │   │
-      │  │  Push Service (FCM/APNs)      │◀────▶│  Object Storage (S3)           │   │
+      │  │  Auth Service                 │◀───▶│  NoSQL DB (DynamoDB/Firestore) │   │
+      │  │  Push Service (FCM/APNs)      │◀───▶│  Object Storage (S3)           │   │
       │  │                               │      │  Cache Redis (Opcional)        │   │
       │  └───────────────────────────────┘      └────────────────────────────────┘   │
       │

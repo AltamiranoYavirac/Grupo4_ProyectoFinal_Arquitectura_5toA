@@ -42,29 +42,29 @@ Abstrae el acceso a la base de datos local y evita acoplamiento entre los Bounde
 ```
 
  ┌──────────────────┐       OHS        ┌──────────────────────┐
- │  Medicinas        │ <-------------->│    Alarmas            │
- │  (Core Domain)    │                 │  (Supporting Domain)   │
- └──────────────────┘                 └──────────────────────┘
+ │  Medicinas       │ <--------------> │    Alarmas           │
+ │  (Core Domain)   │                  │  (Supporting Domain) │
+ └──────────────────┘                  └──────────────────────┘
           │                                   │
           │                                   │ Publica eventos
           │                                   ▼
           │                      ┌────────────────────────┐
           │                      │   Historial de         │
-          └────── OHS ────────► │  Adherencia            │
+          └────── OHS ────────►  │  Adherencia            │
                                  │   (Supporting Domain)  │
                                  └────────────────────────┘
 
  ┌──────────────────┐
- │   Citas Médicas   │── OHS ──► Alarmas
+ │   Citas Médicas  │ ── OHS ──► Alarmas
  └──────────────────┘
 
  ┌──────────────────┐          Shared Kernel        ┌──────────────────┐
- │  Configuración    │ <--------------------------> │   Todos los BCs  │
+ │  Configuración   │ <--------------------------> │   Todos los BCs  │
  └──────────────────┘                               └──────────────────┘
 
- ┌──────────────────┐        ACL        ┌─────────────────────┐
- │   Bounded         │ ---------------->│ Persistencia SQLite │
- │   Contexts        │                  │   (Anti-Corruption) │
+ ┌──────────────────┐        ACL       ┌─────────────────────┐
+ │   Bounded        │ ---------------->│ Persistencia SQLite │
+ │   Contexts       │                  │   (Anti-Corruption) │
  └──────────────────┘                  └─────────────────────┘
 ```
 ---
