@@ -1,5 +1,9 @@
 # ADR 001: Proyecto de Aplicación de Recordatorios Médicos para Personas Mayores
 
+*Autores:* Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
+
+*Asignatura:* Arquitectura de Software | 5 DS “A”
+
 ### Fecha:
 2025-10-14
 

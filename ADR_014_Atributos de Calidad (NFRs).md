@@ -1,3 +1,13 @@
+# ADR 014: Atributos de Calidad (NFRs)
+
+**Autores:** Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
+
+**Asignatura:** Arquitectura de Software | 5 DS “A”
+
+**Fecha:** 22–11–2025
+
+**Estado:** Aceptado
+
 # 1. Atributos de Calidad (NFRs)
 
 Los atributos de calidad más relevantes para el sistema son aquellos que aseguran su confiabilidad, accesibilidad y protección de datos sensibles. Para esta aplicación dirigida a personas mayores y que maneja información médica, se seleccionan tres atributos críticos: Disponibilidad, Seguridad y Usabilidad.

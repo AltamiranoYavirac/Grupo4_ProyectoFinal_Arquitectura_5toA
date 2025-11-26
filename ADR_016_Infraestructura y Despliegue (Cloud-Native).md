@@ -1,3 +1,13 @@
+# ADR 016: Infraestructura y Despliegue (Cloud-Native)
+
+**Autores:** Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
+
+**Asignatura:** Arquitectura de Software | 5 DS “A”
+
+**Fecha:** 22–11–2025
+
+**Estado:** Aceptado
+
 # Matriz de Arquitectura Cloud
 Resumen de Decisiones Tecnológicas
 

@@ -1,5 +1,9 @@
 # ADR 002: Tecnologías de Frontend para la Aplicación Móvil
 
+*Autores:* Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
+
+*Asignatura:* Arquitectura de Software | 5 DS “A”
+
 ### Fecha:
 2025-10-14
 

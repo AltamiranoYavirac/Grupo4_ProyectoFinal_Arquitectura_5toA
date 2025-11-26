@@ -1,7 +1,14 @@
 # ADR 010: Evolución Arquitectónica de Monolito a Microkernel
 
-**Fecha:** 2025-10-21  
-**Estado:** Aceptado  
+*Autores:* Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
+
+*Asignatura:* Arquitectura de Software | 5 DS “A”
+
+### Fecha:
+2025-10-20
+
+### Estado:
+Aceptado
 
 ---
 

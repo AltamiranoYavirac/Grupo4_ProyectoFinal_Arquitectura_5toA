@@ -1,10 +1,13 @@
-# ADR: Análisis de Trade-offs Arquitectónicos
+# ADR 011: Análisis de Trade-offs Arquitectónicos
 
-**Fecha:** 2025-10-25  
-**Autores:** [Equipo de Arquitectura]  
-**Revisores:** [Stakeholders Técnicos]
+*Autores:* Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
 
-## Estado
+*Asignatura:* Arquitectura de Software | 5 DS “A”
+
+### Fecha:
+2025-10-20
+
+### Estado:
 Aceptado
 
 ## Contexto

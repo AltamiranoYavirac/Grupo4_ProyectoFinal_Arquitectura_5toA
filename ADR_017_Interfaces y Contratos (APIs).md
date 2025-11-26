@@ -1,3 +1,13 @@
+# ADR 017: Interfaces y Contratos (APIs)
+
+**Autores:** Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
+
+**Asignatura:** Arquitectura de Software | 5 DS “A”
+
+**Fecha:** 22–11–2025
+
+**Estado:** Aceptado
+
 # Interfaces y Contratos (APIs)
 
 Esta sección especifica las interfaces expuestas por el Backend Serverless, encargado de sincronizar datos, gestionar backups y proveer acceso autenticado a los recursos de la aplicación.

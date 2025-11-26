@@ -1,5 +1,9 @@
 # ADR 003: Tecnología de Backend - Base de Datos Local
 
+*Autores:* Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
+
+*Asignatura:* Arquitectura de Software | 5 DS “A”
+
 ### Fecha:
 2025-10-14
 

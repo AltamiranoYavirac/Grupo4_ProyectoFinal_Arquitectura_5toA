@@ -1,3 +1,13 @@
+# ADR 015: Diseño Estratégico (DDD)
+
+**Autores:** Jiménez D. Christopher, Altamirano Cristian, Iza Jordan
+
+**Asignatura:** Arquitectura de Software | 5 DS “A”
+
+**Fecha:** 22–11–2025
+
+**Estado:** Aceptado
+
 # Contextos Delimitados (Bounded Contexts)
 
 En el proyecto, el dominio se divide en los siguientes subdominios lógicos, cada uno con su propio modelo, reglas y responsabilidades:
