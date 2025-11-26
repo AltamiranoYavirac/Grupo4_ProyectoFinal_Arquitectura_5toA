@@ -63,7 +63,7 @@ Difícil manejo de relaciones entre entidades.
 ## Descripción:
 
 La capa de datos se organiza así:
-
+```
 lib/
  ├── data/
  │   ├── database_helper.dart        # Configuración inicial de SQLite
@@ -79,7 +79,7 @@ lib/
  │       ├── medicina_repository.dart
  │       ├── cita_repository.dart
  │       └── recordatorio_repository.dart
-
+```
 
 Cada DAO maneja operaciones CRUD sobre su tabla correspondiente, mientras que los repositorios coordinan la lógica de negocio y validaciones antes de acceder a los datos.
 
