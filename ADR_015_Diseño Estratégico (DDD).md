@@ -59,7 +59,7 @@ Abstrae el acceso a la base de datos local y evita acoplamiento entre los Bounde
  └──────────────────┘
 
  ┌──────────────────┐          Shared Kernel        ┌──────────────────┐
- │  Configuración   │ <--------------------------> │   Todos los BCs  │
+ │  Configuración   │ <-------------------------->  │   Todos los BCs  │
  └──────────────────┘                               └──────────────────┘
 
  ┌──────────────────┐        ACL       ┌─────────────────────┐
